@@ -1,0 +1,5 @@
+[project]
+name = "intelligent-document-processing"
+version = "0.1.0"
+description = "Universal Document Processing Pipeline"
+requires-python = ">=3.10"
