@@ -44,6 +44,14 @@ Document -> Classification -> Parsing/OCR -> Field Extraction -> Validation + Co
 3. Phase 3: Validation rules and confidence scoring
 4. Phase 4: Human review queue for low-confidence documents
 
+## Task Tracking
+
+Work is broken into phase-tagged user stories tracked as GitHub Issues, not in this file. To see what's open:
+
+    gh issue list --repo faheemkhaskheli9/intelligent-document-processing --state open --label type:user-story
+
+Implement Phase 1 issues first (later phases depend on it). When you start one, add label `status:in-progress`. When you finish, close it referencing the commit (e.g. `git commit -m "... Closes #4"`) and push.
+
 ## 6. Repository Structure
 
 ```text
